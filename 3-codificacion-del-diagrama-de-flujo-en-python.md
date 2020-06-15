@@ -12,7 +12,7 @@ Hallar la superficie de un cuadrado 🔲 conociendo el valor de un lado.
 
 Utilizando cualquiera de los editores recomendados\(mirar tutoriales basicos para su uso con Python\) o el por defecto en Python guardando un archivo .py codificamos la siguiente solución al diagrama de flujo:
 
-```text
+```python
 text = input("Enter side:") 
 side= int(text)
 area =side*side
@@ -51,7 +51,7 @@ Para mostrar un mensaje por pantalla 🖥 tenemos la función print 🖨 que le 
 * Los nombres de variable no pueden tener ❌ espacios en blanco, caracteres especiales y empezar con un número
 * Todo el código debe ⚖ escribirse en la misma columna 📐 , estará incorrecto si escribimos:
 
-```text
+```python
 text = input("Enter side:") 
     side= int(text)
     area =side*side

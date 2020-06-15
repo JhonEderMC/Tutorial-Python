@@ -16,15 +16,15 @@ Un programa no se puede ejecutar por completo sin corregir absolutamente todos l
   
  Programa correctamente codificado: 
 
-```text
+```python
 side = int(input("Enter side:") )
 area =side*side
 print ("the area is:", area)
 ```
 
-Programa con error sintáctico:
+Programa con error sintáctico 🙊 :
 
-```text
+```python
 side = int(input("Enter side:") )
 area =side*side
 print ("the area is:", Area)
@@ -34,15 +34,15 @@ Es incorrecto \(un error\) la impresión de una variable nunca 😣 inicializada
 
 ![Error sint&#xE1;ctico](.gitbook/assets/image%20%281%29.png)
 
-Programa con error lógico:
+Programa con error lógico 🙈 :
 
-```text
+```python
 side = int(input("Enter side:") )
 area =side*side*side
 print ("the area is:", area)
 ```
 
-Como podemos observar si ejecutamos el programa no presenta ningún error sintáctico, pero luego de ingresar el valor del lado del cuadrado \(por ejemplo el valor 10\) obtenemos como resultado un valor incorrecto \(imprime el 1000\), esto debido que definimos incorrectamente la fórmula para calcular la superficie del cuadrado:
+Como podemos observar si ejecutamos el programa no presenta ningún error sintáctico, pero luego de ingresar el valor del lado del cuadrado \(por ejemplo el valor 10\) obtenemos como resultado un valor incorrecto \(imprime el 1000\), esto debido que definimos incorrectamente ⚠ la fórmula para calcular la superficie del cuadrado:
 
 > are = side\*side\*side
 
