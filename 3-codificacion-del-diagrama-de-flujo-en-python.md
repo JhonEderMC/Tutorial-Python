@@ -8,7 +8,7 @@ Para poder probar nuestra solución propuesta a un problema mediante un diagrama
 
 Hallar la superficie de un cuadrado 🔲 conociendo el valor de un lado.
 
-![](.gitbook/assets/image.png)
+![](.gitbook/assets/image%20%282%29.png)
 
 Utilizando cualquiera de los editores recomendados\(mirar tutoriales basicos para su uso con Python\) o el por defecto en Python guardando un archivo .py codificamos la siguiente solución al diagrama de flujo:
 

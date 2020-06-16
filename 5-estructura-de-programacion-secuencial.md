@@ -9,7 +9,7 @@ La programación requiere una práctica ininterrumpida de diagramación y codifi
 
 Realizar la carga de dos números enteros por teclado ⌨ e imprimir su suma y su producto.
 
-![Diagrama de flujo](.gitbook/assets/image%20%282%29.png)
+![Diagrama de flujo](.gitbook/assets/image.png)
 
 Tenemos dos entradas numero1 y numero2, dos operaciones: la suma y el producto de los valores ingresados y dos salidas, que son los resultados de la suma y el producto de los valores ingresados. 
 
@@ -28,9 +28,9 @@ print("The multiplication is: ", multiplication)
 
 Realizar la carga del precio 💸 de un producto por teclado y la cantidad de artículos a llevar del mismo producto 🛒 . Mostrar cuanto se debe pagar \(se ingresa un valor entero en el precio del producto\)
 
-![Diagrama de flujo](.gitbook/assets/image%20%283%29.png)
+![Diagrama de flujo](.gitbook/assets/image%20%2814%29.png)
 
-Tenemos dos entradas: precio y cantidad, una operación para calcular el importe \(precio a pagar\) y una salida.
+Tenemos dos entradas 💻 : precio y cantidad, una operación para calcular el importe 💳 \(precio a pagar\) y una salida.
 
 ```python
 articulo = int (input ("ingrese el precio de un articulo: $"))
@@ -39,11 +39,11 @@ precio = articulo*cantidad
 print('El precio es: $', precio)
 ```
 
-### Problemas propuestos
+### Problemas propuestos 📚 
 
 #### Problema 1
 
-Realizar la carga del lado de un cuadrado, mostrar por pantalla el perímetro del mismo \(El perímetro de un cuadrado se calcula multiplicando el valor del lado por cuatro\)
+Realizar la carga del lado de un cuadrado, mostrar por pantalla el perímetro del mismo \(El perímetro de un cuadrado se calcula multiplicando el valor del lado por cuatro\) 
 
 #### Problema 3
 
@@ -57,10 +57,10 @@ Realizar un programa que lea cuatro valores numéricos e informar su suma y prom
 
 Calcular el sueldo mensual de un operario conociendo la cantidad de horas trabajadas y el valor por hora.
 
-#### Solución
+#### Solución 🆘 
 
 {% hint style="info" %}
-**Nota:** Intentalo tu mismo o si quieres ver otro algoritmo para solucionar el mismo problema
+**Nota :** 👩🏫 Inténtalo tu mism@, esta es la mejor forma de aprender 📈  o si quieres ver 👀 otro algoritmo para solucionar el mismo problema. 👨💻 
 {% endhint %}
 
 {% tabs %}
@@ -95,6 +95,12 @@ val=number1+number2+number3+number4
 print("The addition is: ",val)
 val/=4
 print("The average is: ",val)
+```
+{% endtab %}
+
+{% tab title="" %}
+```
+
 ```
 {% endtab %}
 
