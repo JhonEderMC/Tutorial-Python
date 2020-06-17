@@ -43,7 +43,8 @@ No olvidar la identación del código.
 ### Problemas propuestos 📚 
 
 {% hint style="info" %}
-**Nota :** 👩🏫 Inténtalo tu mism@, esta es la mejor forma de aprender 📈  o si quieres ver 👀 otro algoritmo para solucionar el mismo problema. 👨💻 
+Ha llegado una parte fundamental 😀 , que es el momento donde uno desarrolla individualmente un algoritmo ✍🏾 para la resolución de problemas. El tiempo a dedicar a esta **sección ejercicios propuestos** 👩🏾💻 debe ser mucho mayor que el empleado a la sección de **ejercicios resueltos**.  
+ La _experiencia_ dice que debemos dedicar el 80% del tiempo 🕖 a la resolución _individual_ de problemas y el otro 20% al análisis y codificación de problemas ya resueltos 🗃 por otras personas.
 {% endhint %}
 
 #### Problema 1
@@ -66,6 +67,12 @@ Un postulante a un empleo, realiza un test de capacitación, se obtuvo la siguie
 * Nivel medio: Porcentaje &gt;=75% y&lt;90%
 * Nivel regular: Porcentaje &gt;=50% y &lt;75%
 * Fuera de nivel: Porcentaje &lt;50%
+
+#### Solución 🆘 
+
+{% hint style="info" %}
+**Nota :** 👩🏫 Inténtalo tu mism@, esta es la mejor forma de aprender 📈  o si quieres ver 👀 otro algoritmo para solucionar el mismo problema. 👨💻 
+{% endhint %}
 
 {% tabs %}
 {% tab title="Problem 1" %}

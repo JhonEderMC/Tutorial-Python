@@ -41,6 +41,12 @@ print('El precio es: $', precio)
 
 ### Problemas propuestos 📚 
 
+{% hint style="info" %}
+Ha llegado una parte fundamental 😀 , que es el momento donde uno desarrolla individualmente un algoritmo ✍🏾 para la resolución de problemas. El tiempo a dedicar a esta **sección ejercicios propuestos** 👩🏾💻 debe ser mucho mayor que el empleado a la sección de **ejercicios resueltos**.  
+ La _experiencia_ dice que debemos dedicar el 80% del tiempo 🕖 a la resolución _individual_ de problemas y el otro 20% al análisis y codificación de problemas ya resueltos 🗃 por otras personas.  
+ ⚠ Es de vital importancia para llegar a ser un buen programador poder resolver problemas en forma individual. 💪🏾
+{% endhint %}
+
 #### Problema 1
 
 Realizar la carga del lado de un cuadrado, mostrar por pantalla el perímetro del mismo \(El perímetro de un cuadrado se calcula multiplicando el valor del lado por cuatro\) 
