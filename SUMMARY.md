@@ -9,4 +9,5 @@
 * [7 - Estructuras condicionales anidadas](7-estructuras-condicionales-anidadas.md)
 * [8 - Condiciones compuestas con operadores lógicos](8-condiciones-compuestas-con-operadores-logicos.md)
 * [9 - Estructura repetitiva while](9-estructura-repetitiva-while.md)
+* [10 - Estructura repetitiva for](10-estructura-repetitiva-for.md)
 

@@ -164,7 +164,253 @@ Desarrollar un programa que permita la carga de 10 valores por teclado y nos mue
 ![Diagrama de flujo ejemplo 3](.gitbook/assets/image%20%2818%29.png)
 
 En este problema, a semejanza de los anteriores, tenemos un **contador** llamado x que nos sirve para contar las vueltas que debe repetir el while.  
- También aparece el concepto de **acumulador** \(un acumulador es un tipo especial de variable que se incrementa o disminuye con valores variables durante la ejecución del programa\)
+ También aparece el concepto de **acumulador** \(un acumulador es un tipo especial de variable que se incrementa o disminuye con valores variables durante la ejecución del programa\).
+
+Hemos dado el nombre 🃏 de suma a nuestro acumulador. Cada ciclo que se repita la estructura repetitiva, la variable suma se incrementa con el contenido ingresado en la variable valor `(suma=suma+valor)`
+
+La prueba del diagrama se realiza dándole valores a las variables:
+
+> valor            suma           x           promedio
+>
+>      0                    0
+>
+> \(Antes de entrar a la estructura repetitiva estos son los valores\).
+>
+>  5                5                1
+>
+> 16                21                2
+>
+>  7                28                3
+>
+> 10                38                4
+>
+>  2                40                5
+>
+> 20                60                6
+>
+>  5                65                7
+>
+>  5                70                8
+>
+> 10                80                9
+>
+>  2                82             10
+>
+>  8                90             11
+>
+>                                                     9
+
+Este es un seguimiento del diagrama planteado. Los números que toma la variable valor dependerá de qué cifras cargue el operador durante la ejecución del programa.  
+El promedio se calcula al salir de la estructura repetitiva \(es decir primero sumamos los 10 valores ingresados y luego los dividimos por 10\)
+
+Hay que tener en cuenta que cuando en la variable valor se carga el primer valor \( 5\) al cargarse el segundo valor \(16\) el valor anterior 5 se pierde, por ello la necesidad de ir almacenando 💾 en la variable suma los valores ingresados.
+
+```python
+# count
+i=(int)(1) 
+# acumulate
+sum=0
+while i<=10:
+    x=int(input(r"Enter a number:" ))
+    sum+=x
+    i+=1
+#average
+prom=sum/10    
+print(f"The addiction is {sum} and the average is {prom} ")
+```
+
+El resultado del promedio es un número real. Si queremos que el resultado de la división solo retorne la parte entera del promedio debemos utilizar el operador `//`
+
+`prom = sum / 10`
+
+El interprete de Python sabe que el promedio se calcula al finalizar el while ya que se encuentra codificado en la columna 1. Las tres instrucciones contenidas en el while están indentadas.
+
+#### Ejemplo 4
+
+Una planta que fabrica perfiles de hierro ⛏ posee un lote de n piezas. Confeccionar un programa que pida ingresar por teclado la cantidad de piezas a procesar y luego ingrese la longitud de cada perfil; sabiendo que la pieza cuya longitud esté comprendida en el rango de 1.20 y 1.30 son aptas. Imprimir por pantalla la cantidad de piezas aptas que hay en el lote.
+
+![Diagrama de flujo ejemplo 4](.gitbook/assets/image%20%2822%29.png)
+
+  
+Podemos observar que dentro de una estructura repetitiva puede haber estructuras condicionales \(inclusive puede haber otras estructuras repetitivas que veremos más adelante\).
+
+En este problema hay que cargar inicialmente la cantidad 🔢 de piezas a ingresar \( n \), seguidamente se cargan n valores de largos de piezas.  
+ Cada vez que ingresamos un largo de pieza \(piece\) verificamos si es una medida correcta \(debe estar entre 1.20 y 1.30 el largo para que sea correcta\), en caso de ser correcta la **contamos** \(incrementamos la variable cantidad en 1\)
+
+Al contador de cantidad \(amount\) lo inicializamos en cero porque inicialmente no se ha cargado ningún largo de pieza.  
+ Cuando salimos de la estructura repetitiva porque se han cargado n largos de piezas mostramos 🖥 por pantalla el contador amount \(que representa la cantidad de piezas aptas\)
+
+El contador \(i\) cuenta la cantidad de piezas ingresadas.
+
+```python
+# number of pieces in the lot
+n=int(input("Enter the number of pieces in the lot: "))
+# counters
+# while
+i=1 
+# good pieces
+amount=0
+while (i<=n):
+    # lenght of piece
+    piece=float(input("Enter the piece: "))
+    # count good pieces
+    if (piece>=1.20 and piece<=1.30):
+        amount+=1
+    # increase counter    
+    i+=1
+print(f"The good pieces is {amount}")
+```
+
+{% hint style="warning" %}
+Para ingresar o convertir un número real se utilziar **float** en vez de int
+{% endhint %}
+
+### Problemas propuestos 📚 
+
+{% hint style="info" %}
+Ha llegado una parte fundamental 😀 , que es el momento donde uno desarrolla individualmente un algoritmo ✍🏾 para la resolución de problemas. El tiempo a dedicar a esta **sección ejercicios propuestos** 👩🏾💻 debe ser mucho mayor que el empleado a la sección de **ejercicios resueltos**.  
+ La _experiencia_ dice que debemos dedicar el 80% del tiempo 🕖 a la resolución _individual_ de problemas y el otro 20% al análisis y codificación de problemas ya resueltos 🗃 por otras personas.
+{% endhint %}
+
+#### Problema 1
+
+Escribir un programa que solicite ingresar 10 notas de alumnos y nos informe cuántos tienen notas mayores o iguales a 3 y cuántos menores.
+
+#### Problema 2
+
+Se ingresan un conjunto de n alturas de personas por teclado. Mostrar la altura promedio de las personas.
+
+#### Problema 3
+
+En una empresa trabajan n empleados cuyos sueldos 💵 oscilan entre $100 y $500, realizar un programa que lea los sueldos que cobra cada empleado e informe cuántos empleados cobran entre $100 y $300 y cuántos cobran más de $300. Además el programa deberá informar el importe que gasta la empresa en sueldos al personal.
+
+#### Problema 4
+
+Realizar un programa que imprima 25 términos de la serie 11 - 22 - 33 - 44, etc. \(No se ingresan valores por teclado\).
+
+#### Problema 5
+
+Mostrar los múltiplos de 8 hasta el valor 500. Debe aparecer en pantalla 8 - 16 - 24, etc.
+
+#### Problema 6
+
+Desarrollar un programa que permita cargar n números enteros 🔢 y luego nos informe cuántos valores fueron pares y cuántos impares.
 
 
+
+#### Solución 🆘 
+
+{% hint style="info" %}
+**Nota :** 👩🏫 Inténtalo tu mism@, esta es la mejor forma de aprender 📈  o si quieres ver 👀 otro algoritmo para solucionar el mismo problema. 👨💻
+{% endhint %}
+
+{% tabs %}
+{% tab title="Problem 1" %}
+```python
+i=1
+# counter greater
+countGreater=0
+while (i<=10):
+    # grades
+    grade=float(input("Enter grade:"))
+    # if it is greater than 3.5
+    if(grade>=3.5):
+        # acumulate
+        countGreater+=1
+    # increase count    
+    i+=1
+print(f"the number of stundts with greater grade: {countGreater}")
+print(f"The number of stundets with less grade: {10-countGreater} ")
+```
+{% endtab %}
+
+{% tab title="Problem 2" %}
+```python
+# number of people
+n=int (input("Enter the number of people:"))
+# count
+i=1
+# acumualte heights
+addiHeight=0
+while i<=n:
+    height=float (input ("The person's height: "))
+    #acumulate
+    addiHeight+=height
+    # increase counter
+    i+=1
+# average heights
+averageHeight=addiHeight/n
+print(f"The average heigth is: {averageHeight}")
+```
+{% endtab %}
+
+{% tab title="Problem 3" %}
+```python
+# number of employeer
+n = int(input("Enter the number of employee: "))
+# counters
+i=1 # while
+count100and300=0 #salaries in range
+countGreat300=0
+while (i<=n):
+    # input salary
+    salary=int(input())   
+    if(salary>=100 and salary <=300):
+        count100and300+=1
+    elif (salary>300):
+        countGreat300+=1
+    # increase counter while
+    i+=1
+print(f"The number of employee with salary between 100 and 300: {count100and300}")
+print(f"The number of employee with salary greater than 300: {countGreat300}")
+```
+{% endtab %}
+
+{% tab title="Problem 4" %}
+```python
+i=1
+while i<=25:
+    print(f"{11*i}")
+    i+=1
+```
+{% endtab %}
+
+{% tab title="Problem 5" %}
+```python
+i=1
+x=0
+while (x<500):
+    x=8*i
+    print(x)
+    i+=1    
+```
+{% endtab %}
+
+{% tab title="Problem 6" %}
+```python
+# The amount of number
+n=int(input("Enter amount of numbers: "))
+# counters
+# while
+i=1
+# odd numbers
+oddNumbers=0
+# even numbers
+evenNumbers=0
+while (i<=n):
+    # input number
+    number=int (input("Enter a number:"))
+    #if it is a even number
+    if(number%2==0):
+        evenNumbers+=1
+    else:
+        oddNumbers+=1
+    #increase counter while
+    i+=1
+print (f"The amount of even numbers: {evenNumbers}")
+print (f"The amount of odd numbers: {oddNumbers}")
+
+```
+{% endtab %}
+{% endtabs %}
 
