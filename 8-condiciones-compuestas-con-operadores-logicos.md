@@ -1,3 +1,7 @@
+---
+description: 'Operadores relacionales, mátematicos y lógicos.'
+---
+
 # 8 - Condiciones compuestas con operadores lógicos
 
 Hasta ahora hemos visto los operadores:

@@ -1,3 +1,7 @@
+---
+description: Diagrama de flujo como herramienta para entender un problema planteado.
+---
+
 # 3 - Codificación del diagrama de flujo en Python
 
 El diagrama de flujo es nuestra herramienta 🛠 para poder plantear una solución a nuestro problema.

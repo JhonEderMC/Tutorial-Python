@@ -1,3 +1,7 @@
+---
+description: Tipos de errores  en la codificación de un programa
+---
+
 # 4 - Errores sintácticos y lógicos
 
 Modificaremos el problema 💡 del concepto anterior y agregaremos adrede una serie de errores  _**tipográficos**_ ✍🏾 . Este tipo de errores siempre son detectados 🔎 por el intérprete de Python, antes de ejecutar el programa.

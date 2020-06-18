@@ -1,3 +1,7 @@
+---
+description: 'Estructura condicionales if, elif y else'
+---
+
 # 7 - Estructuras condicionales anidadas
 
 Estamos en presencia de una estructura condicional anidada cuando por la rama del verdadero ↪↩ o el falso de una estructura condicional hay otra estructura condicional.

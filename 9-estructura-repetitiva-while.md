@@ -1,3 +1,9 @@
+---
+description: >-
+  Una estructura repetitiva  permite ejecutar una instrucción o un conjunto de
+  instrucciones varias veces.
+---
+
 # 9 - Estructura repetitiva while
 
   

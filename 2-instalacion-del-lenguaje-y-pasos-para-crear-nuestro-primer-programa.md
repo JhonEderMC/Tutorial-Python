@@ -1,3 +1,7 @@
+---
+description: Instalación de Python y editores
+---
+
 # 2 - Instalación del lenguaje y pasos para crear nuestro primer programa
 
 1. Para la descargar 🔽 Python lo hacemos del sitio: [python.org](https://www.python.org/downloads/) \(descargar la versión más actual 3.8 en adelante\) 

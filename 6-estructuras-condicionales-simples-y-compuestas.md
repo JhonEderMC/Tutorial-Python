@@ -1,3 +1,7 @@
+---
+description: Estructura condicional if y else.
+---
+
 # 6 - Estructuras condicionales simples y compuestas
 
 No todos los problemas pueden resolverse empleando estructuras secuenciales 🙅🏾♂ . Cuando hay que tomar una decisión 🤔 aparecen las estructuras condicionales:
