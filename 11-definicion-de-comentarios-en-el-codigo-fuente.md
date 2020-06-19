@@ -76,6 +76,14 @@ Ha llegado una parte fundamental 😀 , que es el momento donde uno desarrolla i
 
 Realizar un programa que solicite la carga de valores enteros por teclado y los sume. Finalizar la carga al ingresar el valor -1. Dejar como comentario dentro del código fuente el enunciado del problema.
 
+#### Solución 🆘 
+
+{% hint style="info" %}
+**Nota :** 👩🏫 Inténtalo tu mism@, esta es la mejor forma de aprender 📈  o si quieres ver 👀 otro algoritmo para solucionar el mismo problema. 👨💻
+{% endhint %}
+
+{% tabs %}
+{% tab title="Problem 1" %}
 ```python
 """
 Realizar un programa que solicite la carga de valores enteros 
@@ -92,6 +100,8 @@ while number!=-1:
         sum+=number
 print("Sum: ",sum)
 ```
+{% endtab %}
+{% endtabs %}
 
 
 

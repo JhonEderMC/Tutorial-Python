@@ -12,4 +12,5 @@
 * [10 - Estructura repetitiva for](10-estructura-repetitiva-for.md)
 * [11 - Definición de comentarios en el código fuente](11-definicion-de-comentarios-en-el-codigo-fuente.md)
 * [12 - Variables enteras, flotantes y cadenas de caracteres](12-variables-enteras-flotantes-y-cadenas-de-caracteres.md)
+* [13 - Procesar cadenas de caracteres](13-procesar-cadenas-de-caracteres.md)
 
