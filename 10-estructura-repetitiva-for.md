@@ -12,6 +12,8 @@ En general, la estructura repetitiva for se usa en aquellas situaciones en las c
 
 Veremos con una serie de ejemplos el empleo del for.
 
+### Ejemplos 
+
 #### Ejemplo 1
 
 Realizar un programa que imprima 🖨 en pantalla los números del 0 al 20.

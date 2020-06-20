@@ -39,6 +39,8 @@ El bloque se repite **mientras** la condición sea verdadera.
  **Importante:** Si la condición siempre retorna verdadero estamos en presencia de un ciclo repetitivo infinito .♾ Dicha situación es un error de programación lógico, nunca finalizará el programa.
 {% endhint %}
 
+### Ejemplos 
+
 #### Ejemplo 1
 
 Realizar un programa que imprima en pantalla los números del 1 al 100. 🖨 

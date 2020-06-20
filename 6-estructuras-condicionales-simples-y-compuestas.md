@@ -25,6 +25,8 @@ Es cuando tenemos la opción de realizar una actividad o no realizar ninguna.
 * Se trata de una estructura **condional simple** porque por el camino del verdadero hay actividades 👾 y por el camino del falso no hay actividades.
 * Por el camino del verdadero pueden existir varias operaciones, entradas y salidas, inclusive ya veremos ⏳ que puede haber otras estructuras condicionales.
 
+### Ejemplos 
+
 #### Ejemplo 1
 
 Ingresar el sueldo de una persona en dólares, si este supera los $ 3000 mostrar un mensaje en pantalla indicando que debe abonar \(pagar\) impuestos

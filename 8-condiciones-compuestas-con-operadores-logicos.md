@@ -27,6 +27,8 @@ Estos dos operadores se emplean fundamentalmente en las estructuras condicionale
 
 La utilización de operadores lógicos permiten en muchos casos plantear algoritmos más cortos y comprensibles. 🤓 
 
+### Ejemplos 
+
 #### Ejemplo 1
 
 Confeccionar un programa que lea por teclado tres números enteros distintos y nos muestre el mayor 🖥 .

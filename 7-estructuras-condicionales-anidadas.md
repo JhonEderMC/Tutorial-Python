@@ -11,6 +11,8 @@ Estamos en presencia de una estructura condicional anidada cuando por la rama de
 El diagrama de flujo que se presenta contiene dos estructuras condicionales. La principal se trata de una estructura condicional compuesta y la segunda es una estructura condicional simple y está contenida por la rama del falso de la primer estructura.  
  Es muy común que se presenten estructuras condicionales anidadas aún más complejas. 😵 
 
+### Ejemplos 
+
 #### Ejemplo 1
 
 Confeccionar un programa que pida por teclado tres notas de un alumno 👨🏾💻 , calcule el promedio e imprima alguno de estos mensajes: Si el promedio es &gt;=3.5 mostrar "Promocionado". Si el promedio es &gt;=2.8 y &lt;3.5 mostrar "Regular". Si el promedio es &lt;2.8 mostrar "Reprobado". 😕 

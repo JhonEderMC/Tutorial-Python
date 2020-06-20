@@ -1,5 +1,5 @@
 ---
-description: Como realizar comentarios en el código fuente
+description: Como realizar comentarios en el código fuente.
 ---
 
 # 11 - Definición de comentarios en el código fuente
@@ -38,6 +38,8 @@ Se deben utilizar tres comillas simples o dobles seguidas al principio y al fina
 {% hint style="danger" %}
 Todo lo que disponemos como comentario  no se ejecuta.
 {% endhint %}
+
+### Ejemplos 
 
 #### Ejemplo 1
 

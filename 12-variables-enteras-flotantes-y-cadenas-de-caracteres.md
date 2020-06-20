@@ -1,3 +1,7 @@
+---
+description: Algunos tipos de variables en Python.
+---
+
 # 12 - Variables enteras, flotantes y cadenas de caracteres
 
  Hemos visto como definir variables enteras y flotantes. Realizar su carga por asignación y por teclado.
@@ -43,6 +47,8 @@ Como mencionamos previamente ⏮ , para la carga por teclado de una cadena de ca
 ```python
 name = input ("Enter a name: ")
 ```
+
+### Ejemplos
 
 #### Ejemplo 1
 
