@@ -15,4 +15,6 @@
 * [13 - Procesar cadenas de caracteres](13-procesar-cadenas-de-caracteres.md)
 * [14 - Estructura de datos tipo lista](14-estructura-de-datos-tipo-lista.md)
 * [15 - Listas: carga por teclado de sus elementos](15-listas-carga-por-teclado-de-sus-elementos.md)
+* [16 - Listas: mayor y menor elemento](16-listas-mayor-y-menor-elemento.md)
+* [17 - Listas paralelas](17-listas-paralelas.md)
 

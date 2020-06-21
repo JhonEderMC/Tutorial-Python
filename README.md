@@ -22,7 +22,7 @@ Hay que tener en cuenta que para llegar a ser un programador se debe recorrer un
 **Programa**: Conjunto de instrucciones que entiende una  🖥 para realizar una actividad. Todo programa tiene un objetivo bien definido: un procesador de texto \(word\),  un programa de ajedrez permite jugar al ajedrez contra el ordenador u otro contrincante humano.  
 La actividad fundamental del programador es resolver problemas empleando el ordenador como herramienta fundamental.
 
- **Algoritmo**: Son los pasos a seguir para resolver un problema ✍ 
+ **Algoritmo**: Son los pasos 👣 a seguir para resolver un problema ✍ 
 
 **Ejemplo :** Calcular el sueldo 🤑 mensual de un operario conociendo la cantidad de horas trabajadas y el pago por hora 🕐
 

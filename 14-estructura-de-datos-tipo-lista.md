@@ -1,3 +1,9 @@
+---
+description: >-
+  Conoceremos y abordaremos la estructura de datos tipo lista y su carga por
+  asignación.
+---
+
 # 14 - Estructura de datos tipo lista
 
 Hasta ahora hemos trabajado ✍🏾 con variables que permiten almacenar un único valor:
@@ -123,15 +129,15 @@ Los elementos de una lista pueden ser de distinto tipo \(int, float, string...\)
 Ha llegado una parte fundamental 😀 , que es el momento donde uno desarrolla individualmente un algoritmo ✍🏾 para la resolución de problemas. 
 {% endhint %}
 
-#### Problem 1
+#### Problema 1
 
 Definir por asignación una lista con 8 elementos enteros. Contar cuantos de dichos valores almacenan un valor superior a 100.
 
-#### Problem 2
+#### Problema 2
 
 Definir una lista por asignación con 5 enteros. Mostrar por pantalla solo los elementos con valor iguales o superiores a 7.
 
-#### Problem 3
+#### Problema 3
 
 Definir una lista que almacene por asignación los nombres de 5 personas. Contar cuantos de esos nombres tienen 5 o más caracteres.
 
