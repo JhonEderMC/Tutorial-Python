@@ -7,7 +7,7 @@ description: >-
 
 # 1 - Objetivos del tutorial de Python
 
-El objetivo fundamental de este [tutorial](https://jhoneder.gitbook.io/tutorial-python/) es permitir que el estudiante pueda resolver ✍🏾 problemas de distinta índole \(matemáticos, administrativos, juegos, contables etc.\) empleando como herramienta la  💻 .
+El objetivo 🚀 fundamental de este [tutorial](https://jhoneder.gitbook.io/tutorial-python/) es permitir que el estudiante pueda resolver ✍🏾 problemas de distinta índole \(matemáticos, administrativos, juegos, contables etc.\) empleando como herramienta la  💻 .
 
 El objetivo fundamental de este tutorial es permitir que el estudiante pueda resolver problemas de distinta índole \(matemáticos, administrativos, juegos, contables etc.\) empleando como herramienta la computadora.
 

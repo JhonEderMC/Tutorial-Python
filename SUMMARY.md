@@ -13,4 +13,6 @@
 * [11 - Definición de comentarios en el código fuente](11-definicion-de-comentarios-en-el-codigo-fuente.md)
 * [12 - Variables enteras, flotantes y cadenas de caracteres](12-variables-enteras-flotantes-y-cadenas-de-caracteres.md)
 * [13 - Procesar cadenas de caracteres](13-procesar-cadenas-de-caracteres.md)
+* [14 - Estructura de datos tipo lista](14-estructura-de-datos-tipo-lista.md)
+* [15 - Listas: carga por teclado de sus elementos](15-listas-carga-por-teclado-de-sus-elementos.md)
 
