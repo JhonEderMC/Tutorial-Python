@@ -17,4 +17,5 @@
 * [15 - Listas: carga por teclado de sus elementos](15-listas-carga-por-teclado-de-sus-elementos.md)
 * [16 - Listas: mayor y menor elemento](16-listas-mayor-y-menor-elemento.md)
 * [17 - Listas paralelas](17-listas-paralelas.md)
+* [18 - Listas: ordenamiento de sus elementos](18-listas-ordenamiento-de-sus-elementos.md)
 

@@ -194,7 +194,8 @@ else:
 ```python
 '''Esto se me ocurrio en el momento de hacer este modulo y podría ser
 un poco mas complicado. Consiste en ordenear una lista de menor a mayor
-y reorganizandola en dicho orden'''
+y reorganizandola en dicho orden.
+Veremos un poco mas sobre mas adelante'''
 # list of numbers
 #empty list
 listNumbers=[]
