@@ -18,4 +18,5 @@
 * [16 - Listas: mayor y menor elemento](16-listas-mayor-y-menor-elemento.md)
 * [17 - Listas paralelas](17-listas-paralelas.md)
 * [18 - Listas: ordenamiento de sus elementos](18-listas-ordenamiento-de-sus-elementos.md)
+* [19 - Listas: ordenamiento con listas paralelas](19-listas-ordenamiento-con-listas-paralelas.md)
 

@@ -1,3 +1,7 @@
+---
+description: ordenamiento de una lista de datos de mayor a menor o viceversa.
+---
+
 # 18 - Listas: ordenamiento de sus elementos
 
 Otro algoritmo 🤖 muy común que debe conocer y entender un programador es el ordenamiento de una lista de datos.
@@ -133,5 +137,107 @@ Se necesitan N-1 iteracciones para ordenar una lista \(N, tamaño de lista\).
 Una última consideración a este **algoritmo** de ordenamiento es que los elementos que se van ordenando continuamos comparándolos.
 
   
-Para plantear un algoritmo mas eficiente, como sabemos que cada que paso 👣 del for externo quedan organizados dos elementos, entonces hay una iteración menos \(k-1\) en el interno. 
+Para plantear un algoritmo mas eficiente, como sabemos que cada que paso 👣 del _fo_r externo quedan organizados dos elementos, entonces hay una iteración menos \(k-1\) en el interno.
+
+### Problemas propuestos 📚 
+
+{% hint style="info" %}
+Ha llegado una parte fundamental 😀 , que es el momento donde uno desarrolla individualmente un algoritmo ✍🏾 para la resolución de problemas. El tiempo a dedicar a esta **sección ejercicios propuestos** 👩🏾💻 debe ser mucho mayor que el empleado a la sección de **ejercicios resueltos**.  
+ La _experiencia_ dice que debemos dedicar el 80% del tiempo 🕖 a la resolución _individual_ de problemas y el otro 20% al análisis y codificación de problemas ya resueltos 🗃 por otras personas.
+{% endhint %}
+
+####  Problema 1
+
+Crear una lista y almacenar los nombres de 5 países. Ordenar alfabéticamente la lista e imprimirla.
+
+#### Problema 2
+
+Solicitar por teclado la cantidad de empleados que tiene la empresa 🏭 . Crear y cargar una lista con todos los sueldos de dichos empleados. Imprimir la lista de sueldos ordenamos de menor a mayor.
+
+#### Problema 3
+
+Cargar una lista con 5 elementos enteros. Ordenarla de menor a mayor y mostrarla por pantalla, luego ordenar de mayor a menor e imprimir nuevamente.
+
+
+
+#### Solución 🆘 
+
+{% hint style="info" %}
+**Nota :** 👩🏫 Inténtalo tu mism@, esta es la mejor forma de aprender 📈  o si quieres ver 👀 otro algoritmo para solucionar el mismo problema. 👨💻
+{% endhint %}
+
+{% tabs %}
+{% tab title="Problem 1" %}
+```python
+# list countries
+listCountry=[]
+# enter country (N-1 iterations)
+for f in range(5):
+    listCountry.append(input(f"Enter a contry{f+1}: "))
+print("Countries: ",listCountry)
+# ordered, n-1-k iterations
+for k in range(4):
+    for f in range(4-k):
+        if(listCountry[f]>listCountry[f+1]):
+            auxCountry=listCountry[f]
+            listCountry[f]=listCountry[f+1]
+            listCountry[f+1]=auxCountry
+print("Countries Ordered: ",listCountry)
+
+```
+{% endtab %}
+
+{% tab title="Problem 2" %}
+```python
+# number of empleoyer
+n=int(input("Enter the amount of employee: "))
+# employer salary
+listSalary=[]
+# enter salary
+for f in range(n):
+    listSalary.append(float(input(f"Enter employee salary{f+1}: $")))
+print("Salary: ",listSalary)
+
+# ordered minor to greater
+for k in range(n-1):
+    for f in range(n-1-k):
+        if(listSalary[f]>listSalary[f+1]):
+            auxSalary=listSalary[f]
+            listSalary[f]=listSalary[f+1]
+            listSalary[f+1]=auxSalary
+print("Salary: ",listSalary)
+```
+{% endtab %}
+
+{% tab title="Problem 3" %}
+```python
+# list integer
+listInteger=[]
+# enter data
+for f in range(5):
+    listInteger.append(int (input("Enter a number: ")))
+print("list: ",listInteger)
+    
+# ordered minor to greater
+for k in range(4):
+    for f in range(4-k):
+        if(listInteger[f]>listInteger[f+1]):
+            auxNumb=listInteger[f]
+            listInteger[f]=listInteger[f+1]
+            listInteger[f+1]=auxNumb
+print("list ordered minor to greater: ",listInteger)
+    
+# ordered greater to minor 
+for k in range(4):
+    for f in range(4-k):
+        if(listInteger[f]<listInteger[f+1]):
+            auxNumb=listInteger[f]
+            listInteger[f]=listInteger[f+1]
+            listInteger[f+1]=auxNumb
+print("list ordered greater to minor: ",listInteger)
+```
+{% endtab %}
+{% endtabs %}
+
+
 
