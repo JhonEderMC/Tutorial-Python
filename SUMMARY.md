@@ -19,4 +19,5 @@
 * [17 - Listas paralelas](17-listas-paralelas.md)
 * [18 - Listas: ordenamiento de sus elementos](18-listas-ordenamiento-de-sus-elementos.md)
 * [19 - Listas: ordenamiento con listas paralelas](19-listas-ordenamiento-con-listas-paralelas.md)
+* [20 - Listas: componentes de tipo lista](20-listas-componentes-de-tipo-lista.md)
 

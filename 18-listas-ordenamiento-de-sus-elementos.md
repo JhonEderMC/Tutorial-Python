@@ -158,8 +158,6 @@ Solicitar por teclado la cantidad de empleados que tiene la empresa 🏭 . Crear
 
 Cargar una lista con 5 elementos enteros. Ordenarla de menor a mayor y mostrarla por pantalla, luego ordenar de mayor a menor e imprimir nuevamente.
 
-
-
 #### Solución 🆘 
 
 {% hint style="info" %}
