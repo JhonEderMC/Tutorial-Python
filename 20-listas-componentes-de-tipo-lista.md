@@ -1,5 +1,5 @@
 ---
-description: Componenentes de una lista
+description: Manejo de componenentes de una lista
 ---
 
 # 20 - Listas: componentes de tipo lista
@@ -229,4 +229,73 @@ El segundo ciclo nos sirve para recorrer y acceder a cada elemento entero de cad
 >        suma+=list3\[k\]\[f\]
 
 La cantidad de veces que se repite el for interno depende de la cantidad de elementos que tiene la lista que estamos sumando en ese momento.
+
+
+
+### Problemas propuestos 📚 
+
+{% hint style="info" %}
+Ha llegado una parte fundamental 😀 , que es el momento donde uno desarrolla individualmente un algoritmo ✍🏾 para la resolución de problemas. 
+{% endhint %}
+
+#### Problema 1
+
+Se tiene la siguiente lista:
+
+`lista=[[200,7,85,8], [4,8,56,40], [67,90,21,1], [75,57]]`
+
+Imprimir🖨 la lista. Luego fijar con el valor cero todos los elementos mayores a 50 del primer elemento de "lista". Volver a imprimir la lista.
+
+#### Problema 2
+
+Se tiene la siguiente lista:
+
+`lista=[[4,12,5,66], [14,6,25], [3,4,5,67,89,23,1], [78,56]]`
+
+Imprimir la lista. Luego fijar con el valor cero todos los elementos mayores a 10 contenidos en todos los elementos de la variable "lista". Volver a imprimir la lista.
+
+#### Problema 3
+
+Crear una lista por asignación con la cantidad de elementos de tipo lista que usted desee. Luego imprimir el último elemento de la lista principal.
+
+#### Solución 🆘 
+
+{% hint style="info" %}
+**Nota :** 👩🏫 Inténtalo tu mism@, esta es la mejor forma de aprender 📈  o si quieres ver 👀 otro algoritmo para solucionar el mismo problema. 👨💻
+{% endhint %}
+
+{% tabs %}
+{% tab title="Problem 1" %}
+```python
+list4=[[4,12,5,66], [14,6,25], [3,4,5,67,89,23,1], [78,56]]
+print("List: ",list4)
+for k in range(len(list4)):
+    for f in range(len(list4[k])):
+        if(list4[k][f]>50):
+            list4[k][f]=0
+print("new list: ",list4)
+```
+{% endtab %}
+
+{% tab title="Problem 2" %}
+```python
+list4=[[4,12,5,66], [14,6,25], [3,4,5,67,89,23,1], [78,56]]
+print("List: ",list4)
+for k in range(len(list4)):
+    for f in range(len(list4[k])):
+        if(list4[k][f]>10):
+            list4[k][f]=0
+print("new list: ",list4)
+```
+{% endtab %}
+
+{% tab title="Problem 3" %}
+```python
+list4=[[4,12,5,66], [14,6,25], [3,4,5,67,89,23,1], [78,56]]
+#The last component
+print(len(list4[len(list4)-1])-1)
+print("Last: ",list4[len(list4)-1][len(list4[len(list4)-1])-1])
+```
+{% endtab %}
+{% endtabs %}
 
