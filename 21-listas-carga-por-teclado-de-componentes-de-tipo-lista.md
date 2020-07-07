@@ -154,5 +154,183 @@ Finalmente el problema requiere mostrar el nombre del empleado que recaudó más
 
 #### Ejemplo 3
 
+Solicitar por teclado ⌨ dos enteros. El primer valor indica la cantidad de elementos que crearemos en la lista. El segundo valor indica la cantidad de elementos que tendrá cada una de las listas internas a la lista principal. Mostrar la lista y la suma de todos sus elementos.
+
+Por ejemplo si el operador carga un 2 y un 4 significa que debemos crear una lista similar a:
+
+`lista=[[1,2,3,4], [5,6,7,8]]`
+
+```python
+# list
+# list of numbers
+listNumber=[]
+# sublist of numbers, they are part of numbers list
+subListNumber=[]
+# the amount of list's elements
+lengthList=int(input("Enter the amount of list's elements: "))
+# the amount of sublist's elements
+lengthSublist=int(input("Enter the amount of sublist's elements: "))
+# enter data
+# sublist
+print("--------------------------")
+# external for (main list)
+for f in range(lengthList):    
+# internal for (internal lists)
+    for k in range(lengthSublist) :  
+#input internal lists
+        subListNumber.append(int(input(f"Enter the sublist's element{k+1}: ")))
+# add external list (main)    
+    listNumber.append(subListNumber)    
+# clean internal list(to clear the previous values)    
+    subListNumber=[]
+
+# print the list
+print("--------------------------")
+print("List",listNumber)
+
+# addiction elements
+addiction=0
+# external for
+for k in range(len(listNumber)):
+# internal for
+    for f in range(len(listNumber[k])):
+# acumulate
+        addiction+=listNumber[k][f]
+print("--------------------------")
+print("addiction: ",addiction)
+```
+
+Lo primero que hacemos en este problema 👨🏾🏫 además de definir la lista es cargar dos enteros por teclado:
+
+> ```python
+> listNumber=[] 
+> subListNumber=[]
+> lengthList=int(input("Enter the amount of list's elements: "))
+> lengthSublist=int(input("Enter the amount of sublist's elements: "))
+> ```
+
+El primer for se repetirá tantas veces como indica el primer valor ingresado por teclado almacenado en la variable "lengthList", cada vuelta de este _for_ se crea un elemento en la "subListNumber".
+
+En el _for_ interior procedemos a cargar tantos valores como lo indicamos en la variable "lengthsublist" y los vamos añadiendo en la lista vacía\(sublistNumber\) que creamos antes de este _for_:
+
+> ```python
+> for f in range(lengthList):    
+>     for k in range(lengthSublist) :  
+>         subListNumber.append(int(input(f"Enter the sublist's element{k+1}: ")))
+>     listNumber.append(subListNumber)    
+>     subListNumber=[]
+> ```
+
+Finalmente para sumar todos los elementos enteros almacenados en "listNumber" debemos disponer estructuras repetitivas anidadas:
+
+> ```python
+> for k in range(len(listNumber)):
+>     for f in range(len(listNumber[k])):
+>         addiction+=listNumber[k][f]
+> ```
+
+El _for_ de las "_k_" se repite tantas veces como elementos tenga "_listNumber"_ y el _for_ de las _x_ se repite tantas veces como elementos tenga la lista en la posición _k._
+
+![Salida ejecuci&#xF3;n ejemplo 1](.gitbook/assets/image%20%2836%29.png)
+
+#### Ejemplo 4
+
+Definir dos listas de 3 elementos. La primer lista cada elemento es una sublista con el nombre del padre y la madre de una familia. 👨👩👧 La segunda lista está constituida por listas con los nombres de los hijos de cada familia. Puede haber familias sin hijos. Imprimir los nombres del padre, la madre y sus hijos. También imprimir solo el nombre del padre y la cantidad de hijos que tiene dicho padre.
+
+Un ejemplo si se define por asignación:
+
+```python
+padres=[["juan","ana"], ["carlos","maria"], ["pedro","laura"]]
+hijos=[["marcos","alberto","silvia"], [], ["oscar"]]
+```
+
+Como son listas paralelas podemos decir que la familia cuyos padres son "juan" y "ana" tiene tres hijos llamados "marcos", "alberto", "silvia". La segunda familia no tiene hijos y la tercera tiene solo uno.
+
+```python
+listParents=[]
+listChildren=[]
+numParents=int(input("The number of parents: "))
+# enter data
+for f in range(numParents):
+    # enter parents name
+    fa=input("Enter father's name: ")
+    ma=input("Enter mother's name: ")    
+    listParents.append([fa,ma])  
+    # number of children of previous parents
+    numChildren=int(input(f"The number of children of {listParents[f]}: "))    
+    listChildren.append([])    
+    # enter children name
+    for c in range(numChildren):
+        listChildren[f].append(input(f"Enter the children name of {listParents[f]}: "))
+    
+    
+#print list
+print("--------------------------")
+print(listParents)
+print(listChildren)
+print("--------------------------")
+
+for f in range(len(listParents)):
+    print(f"Father: {listParents[f][0]} Mother: {listParents[f][1]} Children: {listChildren[f]} ")
+    
+# print fathers, mothers and their children
+print("--------------------------")   
+print("List: ")
+for f in range(len(listParents)):
+    print("Fahter: ",listParents[f][0])
+    print("Mother: ", listParents[f][1])
+    # children
+    for k in range(len(listChildren[f])):
+        print("Children: ",listChildren[f][k])
+        
+#number of children
+print("--------------------------")  
+print("Number of children")
+# print data
+for f in range(len(listParents)):
+    print("Father: ", listParents[f][0], "# of Children: ", len(listChildren[f]))
+```
+
+Comenzamos definiendo las dos listas:
+
+> `listParents=[]`
+>
+> `listChildren=[]`
+
+El primer _for_ es para cargar y crear cada elemento de la lista "padres" \(listParents\), crear una elemento de la lista hijos\(listChildren\) con una lista vacía y solicitar que se cargue cuantos hijos tiene la familia:
+
+> ```python
+> for f in range(numParents):
+>     fa=input("Enter father's name: ")
+>     ma=input("Enter mother's name: ")    
+>     listParents.append([fa,ma])  
+>     numChildren=int(input(f"The number of children of {listParents[f]}: "))    
+>     listChildren.append([])    
+> ```
+
+El _for_ interno se ingresan los nombres de los hijos y se agregan a la lista hijos en la posición respectiva. El for interno puede llegar a no ejecutarse si se ingresa un 0 en cantidad de hijos:
+
+> ```python
+> for c in range(numChildren):
+>         listChildren[f].append(input(f"Enter the children name of {listParents[f]}: "))    
+> ```
+
+Para imprimir los nombres de ambos padres y sus hijos 👨👩👧 también implementamos un for anidado:
+
+> ```python
+> for f in range(len(listParents)):
+>     print("Fahter: ",listParents[f][0])
+>     print("Mother: ", listParents[f][1])
+>     for k in range(len(listChildren[f])):
+>         print("Children: ",listChildren[f][k])        
+> ```
+
+Para mostrar la cantidad de hijos que tiene un determinado padre llamamos a la función _len_ de cada una de las sublistas contenidas en la lista hijos:
+
+> ```python
+> for f in range(len(listParents)):
+>     print("Father: ", listParents[f][0], "# of Children: ", len(listChildren[f]))
+> ```
+
 
 
