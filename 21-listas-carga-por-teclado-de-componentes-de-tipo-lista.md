@@ -1,3 +1,7 @@
+---
+description: Carga por teclado de una lista
+---
+
 # 21 - Listas: carga por teclado de componentes de tipo lista
 
 En el concepto anterior vimos que fácilmente podemos definir por asignación una lista cuyas componentes sean también listas:
@@ -332,5 +336,111 @@ Para mostrar la cantidad de hijos que tiene un determinado padre llamamos a la f
 >     print("Father: ", listParents[f][0], "# of Children: ", len(listChildren[f]))
 > ```
 
+### Problemas propuestos 📚 
 
+{% hint style="info" %}
+Ha llegado una parte fundamental 😀 , que es el momento donde uno desarrolla individualmente un algoritmo ✍🏾 para la resolución de problemas. El tiempo a dedicar a esta **sección ejercicios propuestos** 👩🏾💻 debe ser mucho mayor que el empleado a la sección de **ejercicios resueltos**.  
+ La _experiencia_ dice que debemos dedicar el 80% del tiempo 🕖 a la resolución _individual_ de problemas y el otro 20% al análisis y codificación de problemas ya resueltos 🗃 por otras personas.
+{% endhint %}
+
+#### Problema 1
+
+Se desea saber la temperatura media trimestral de cuatro paises. 🗺 Para ello se tiene como dato las temperaturas 🌡 medias mensuales de dichos paises. Se debe ingresar el nombre del país y seguidamente las tres temperaturas medias mensuales. Seleccionar las estructuras de datos adecuadas para el almacenamiento de los datos en memoria.
+
+1. Cargar por teclado los nombres de los paises y las temperaturas medias mensuales.
+2. Imprimir los nombres de las paises y las temperaturas medias mensuales de las mismas.
+3. Calcular la temperatura media trimestral de cada país.
+4. Imprimr los nombres de los paises y las temperaturas medias trimestrales.
+5. Imprimir el nombre del pais con la temperatura media trimestral mayor.
+
+#### Problema 2
+
+Definir una lista y almacenar los nombres de 3 empleados. Por otro lado definir otra lista y almacenar en cada elemento una sublista con los números de días del mes que el empleado faltó. Imprimir los nombres de empleados y los días que faltó. Mostrar los empleados con la cantidad de inasistencias. Finalmente mostrar el nombre o los nombres de empleados que faltaron menos días.
+
+#### Problema 3
+
+Desarrollar un programa que cree una lista de 50 elementos. El primer elemento es una lista con un elemento entero, el segundo elemento es una lista de dos elementos etc. La lista debería tener esta estructura y asignarle esos valores a medida que se crean los elementos:
+
+`[[1], [1,2], [1,2,3], [1,2,3,4], [1,2,3,4,5], etc....]`
+
+#### Solución 🆘 
+
+{% hint style="info" %}
+**Nota :** 👩🏫 Inténtalo tu mism@, esta es la mejor forma de aprender 📈  o si quieres ver 👀 otro algoritmo para solucionar el mismo problema. 👨💻
+{% endhint %}
+
+{% tabs %}
+{% tab title="Problem 1" %}
+```python
+# temperature country
+listCountryName=[]
+listCountryQuaterlyTemp=[]
+listCountryAverageTemp=[]
+# four contries
+for c in range(4):
+    # country name
+    listCountryName.append([])
+    listCountryName[c].append(input(f"Enter country name{c+1}: "))
+    # quaterly temperature
+    for t in range(3):
+        listCountryQuaterlyTemp.append([])
+        listCountryQuaterlyTemp[c].append(float(input(f"Enter {listCountryName[c][0]} in quaterly{t+1}: ")))
+
+# print data
+print("\n print data: ")
+for c in range(len(listCountryName)):
+    print("Country: ",listCountryName[c][0])
+    for t in range(len(listCountryName[c])):
+        print(f"quaterly: {listCountryQuaterlyTemp[c][t]}°")
+
+# average temperature
+print("\n print average temperature: ")
+for c in range(len(listCountryName)):
+    listCountryAverageTemp.append([])
+    suma=0.0
+    for t in range(len(listCountryQuaterlyTemp[c])):
+        suma+=listCountryQuaterlyTemp[c][t]
+        #listCountryAverageTemp[c]+=listCountryQuaterlyTemp[c][t]
+    suma/=3
+    listCountryAverageTemp[c]=suma
+    
+# print data
+print("\n Average temprature: ")
+for f in range(len(listCountryName)):
+    print(f"Country: {listCountryName[f][0]}  Temp: {listCountryAverageTemp[f]}°")
+        
+```
+{% endtab %}
+
+{% tab title="Problem 2" %}
+```python
+# list
+# employee names
+listNames=[]
+listAbsences=[]
+# three employees
+# enter data
+for f in range(3):
+    listNames.append(input(f"Enter a employe anme{f+1}: "))
+    listAbsences.append(int(input(f"Enter {listNames[f]} absences: ")))
+print("name : absences")
+for f in range(3):
+    print(f"{listNames[f]}: {listAbsences[f]}")
+```
+{% endtab %}
+
+{% tab title="Problem 3" %}
+```python
+#list
+listNumb=[]
+list1=[]
+for f in range(50):    
+    listNumb.append([])
+    print(f"paso{f+1}:")
+    for x in range(f):
+        listNumb[f].append(int(input(f"Enter a number{x+1}: ")))
+print("\nData: ",listNumb)
+```
+{% endtab %}
+{% endtabs %}
 

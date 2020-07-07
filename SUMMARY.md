@@ -21,4 +21,5 @@
 * [19 - Listas: ordenamiento con listas paralelas](19-listas-ordenamiento-con-listas-paralelas.md)
 * [20 - Listas: componentes de tipo lista](20-listas-componentes-de-tipo-lista.md)
 * [21 - Listas: carga por teclado de componentes de tipo lista](21-listas-carga-por-teclado-de-componentes-de-tipo-lista.md)
+* [22 - Listas: eliminación de elementos](22-listas-eliminacion-de-elementos.md)
 
