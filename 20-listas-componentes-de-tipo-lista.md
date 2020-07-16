@@ -230,8 +230,6 @@ El segundo ciclo nos sirve para recorrer y acceder a cada elemento entero de cad
 
 La cantidad de veces que se repite el for interno depende de la cantidad de elementos que tiene la lista que estamos sumando en ese momento.
 
-
-
 ### Problemas propuestos 📚 
 
 {% hint style="info" %}
