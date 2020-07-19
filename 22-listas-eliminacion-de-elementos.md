@@ -1,3 +1,7 @@
+---
+description: Eliminación de elementos de una lista.
+---
+
 # 22 - Listas: eliminación de elementos
 
 Hemos visto que una lista la podemos iniciar por asignación indicando sus elementos.

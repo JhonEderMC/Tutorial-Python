@@ -22,4 +22,6 @@
 * [20 - Listas: componentes de tipo lista](20-listas-componentes-de-tipo-lista.md)
 * [21 - Listas: carga por teclado de componentes de tipo lista](21-listas-carga-por-teclado-de-componentes-de-tipo-lista.md)
 * [22 - Listas: eliminación de elementos](22-listas-eliminacion-de-elementos.md)
+* [23 - Concepto de funciones - Programación estructurada](23-concepto-de-funciones-programacion-estructurada.md)
+* [24 - Funciones: parámetros](24-funciones-parametros.md)
 
